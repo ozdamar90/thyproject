@@ -1,0 +1,36 @@
+---
+application:
+  name: "THY"
+  url:  "https://www.turkishairlines.com/tr-tr"
+  username: "mozdamar90@hotmail.com"
+  password: "aGdZx9.nMiKv9zG"
+
+
+tests:
+  dryrun: false
+  tag: "@thy"
+  features: "src/test/resources/RegSuit/ThyProject/"
+  screenshots: "failure"    # failure  or  all
+
+browser:
+  name: "chrome"
+  options:
+    - "--start-maximized"
+thy:
+  info:
+     - "Mumin"
+     - "Ozdamar"
+     - "21.10.1976"
+     - "mozzi998@gmail.com"
+     - "06100"
+     - "3499 sok No:4 Yenimahalle"
+     - "505 30 65 02"
+     - "Amasya197605"
+     - "Amasya197605"
+     - "Celik"
+
+
+
+
+
+testerName: MO QA Team

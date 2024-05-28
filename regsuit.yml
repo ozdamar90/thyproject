@@ -1,0 +1,19 @@
+---
+application:
+  name: "Thyproject"
+  url: "https://www.turkıshairlines.com/tr-int/"
+  username: "mozdamar90@hotmail.com"
+  password: "aGdZx9.nMiKv9zG"
+
+tests:
+  dryrun: false
+  tag: "@regsuit @thyproject"
+  features: "src/test/resources/RegSuit"
+  screenshots: "failure"
+
+browser:
+  name: "chrome"
+  options:
+    - "--start-maximized"
+
+testerName: "Reg Test Suit"
